@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             href="https://github.com/apinanyogaratnam/cachier-service/pkgs/container/cachier-service"
             className={styles.card}
           >
-            <h2>Simple and timeless &rarr;</h2>
+            <h2>Simple setup &rarr;</h2>
             <p>
               Instantly setup a cachier service using docker
             </p>
