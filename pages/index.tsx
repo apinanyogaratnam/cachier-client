@@ -14,23 +14,22 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Cachier
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          Get started by choosing a package depending on your language
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://pypi.org/project/cachier-python" className={styles.card}>
+            <h2>Python &rarr;</h2>
+            <p>Use the python package on the pypi repository.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="www.npmjs.com/package/cachier-js" className={styles.card}>
+            <h2>JavaScript &rarr;</h2>
+            <p>Use the npm package on the npmjs repository.</p>
           </a>
 
           <a
@@ -38,16 +37,16 @@ const Home: NextPage = () => {
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Discover and deploy boilerplate example projects built on cachier.</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/apinanyogaratnam/cachier-service/pkgs/container/cachier-service"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Simple and timeless &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Instantly setup a cachier service using docker
             </p>
           </a>
         </div>
